@@ -13,6 +13,14 @@
                 <h:inputText value="#{calculationBean.value2}"/>&nbsp;&nbsp;
                 <h:inputText value="#{calculationBean.value3}"/>
             </p>
+            <p>
+                <h:commandButton value="Clear" action="#{calculationBean.clear()}"/>
+                <h:commandButton value="Addition" action="#{calculationBean.addition()}"/>
+                <h:commandButton value="subtract" action="#{calculationBean.subtract()}"/>
+                <h:commandButton value="Divide" action="#{calculationBean.divide()}"/>
+                <h:commandButton value="Multiply" action="#{calculationBean.multiply()}"/>
+                <h:commandButton value="Modolus" action="#{calculationBean.modolus()}"/>
+            </p>
         </h:form>
     </h:body>
 </html>
